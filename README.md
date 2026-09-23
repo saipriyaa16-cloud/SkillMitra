@@ -98,7 +98,8 @@ Once the application opens:
 
 The prototype includes Student and Industry workflows.
 
-## The problem
+### Detailed Overview 
+## 1. The problem
 
 Students often do not know which skills their target roles require or how to prove
 what they can do. Recruiters rely on resumes that reveal little about real capability.
@@ -114,7 +115,7 @@ cannot easily track skill development, internship participation, and placement r
 | **Institutions** | Can't monitor skill development, internship participation or placement readiness. |
 
 
-## Our solution
+## 2. Our solution
 
 Skill Mitra creates one shared, evidence-based picture of skills for students,
 industry, faculty, and institutions.
