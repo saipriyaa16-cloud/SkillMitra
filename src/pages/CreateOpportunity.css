@@ -1,0 +1,341 @@
+.create-opportunity-page {
+    min-height: 100vh;
+    background: #f7f9fc;
+    padding: 40px;
+    color: #172033;
+  }
+  
+  .create-opportunity-container {
+    max-width: 1050px;
+    margin: 0 auto;
+  }
+  
+  .create-back-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    background: transparent;
+    color: #475569;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 28px;
+  }
+  
+  .create-back-button:hover {
+    color: #2563eb;
+  }
+  
+  .create-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 28px;
+  }
+  
+  .create-eyebrow {
+    color: #2563eb;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  
+  .create-header h1 {
+    margin: 6px 0 8px;
+    font-size: 34px;
+  }
+  
+  .create-header p {
+    margin: 0;
+    color: #64748b;
+  }
+  
+  .create-header-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 58px;
+    height: 58px;
+    border-radius: 16px;
+    background: #eff6ff;
+    color: #2563eb;
+  }
+  
+  .create-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 18px;
+    padding: 28px;
+    margin-bottom: 22px;
+    box-shadow: 0 6px 20px rgba(15, 23, 42, 0.05);
+  }
+  
+  .create-section-title {
+    margin-bottom: 24px;
+  }
+  
+  .create-section-title h2 {
+    margin: 0 0 5px;
+    font-size: 21px;
+  }
+  
+  .create-section-title p {
+    margin: 0;
+    color: #64748b;
+    font-size: 14px;
+  }
+  
+  .create-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .create-full {
+    grid-column: 1 / -1;
+  }
+  
+  .create-field label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  .create-field input,
+  .create-field select,
+  .create-field textarea,
+  .skill-row > input,
+  .minimum-score input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    background: white;
+    color: #172033;
+    font: inherit;
+    outline: none;
+  }
+  
+  .create-field textarea {
+    resize: vertical;
+  }
+  
+  .create-field input:focus,
+  .create-field select:focus,
+  .create-field textarea:focus,
+  .skill-row > input:focus,
+  .minimum-score input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+  }
+  
+  .create-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    grid-column: 1 / -1;
+  }
+  
+  .create-checkbox input {
+    width: 17px;
+    height: 17px;
+  }
+  
+  .create-checkbox label {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .skill-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .skill-row {
+    display: grid;
+    grid-template-columns: 36px 1fr 190px 42px;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .skill-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #eff6ff;
+    color: #2563eb;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  
+  .minimum-score {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #64748b;
+    font-size: 12px;
+  }
+  
+  .minimum-score input {
+    width: 70px;
+    padding: 9px;
+  }
+  
+  .remove-skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border: none;
+    border-radius: 9px;
+    background: #fef2f2;
+    color: #dc2626;
+    cursor: pointer;
+  }
+  
+  .remove-skill:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+  
+  .add-skill-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 18px;
+    padding: 10px 15px;
+    border: 1px dashed #93c5fd;
+    border-radius: 10px;
+    background: #eff6ff;
+    color: #2563eb;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .add-skill-button:hover {
+    background: #dbeafe;
+  }
+  
+  .create-error {
+    margin-bottom: 18px;
+    padding: 14px;
+    border-radius: 10px;
+    background: #fef2f2;
+    color: #b91c1c;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .create-success {
+    margin-bottom: 18px;
+    padding: 14px;
+    border-radius: 10px;
+    background: #f0fdf4;
+    color: #15803d;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .create-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-bottom: 40px;
+  }
+  
+  .cancel-button,
+  .publish-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .cancel-button {
+    border: 1px solid #cbd5e1;
+    background: white;
+    color: #475569;
+  }
+  
+  .publish-button {
+    border: none;
+    background: #2563eb;
+    color: white;
+  }
+  
+  .publish-button:hover {
+    background: #1d4ed8;
+  }
+  
+  .publish-button:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+  }
+  
+  .create-spin {
+    animation: createSpin 1s linear infinite;
+  }
+  
+  @keyframes createSpin {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (max-width: 750px) {
+    .create-opportunity-page {
+      padding: 20px;
+    }
+  
+    .create-header {
+      align-items: flex-start;
+    }
+  
+    .create-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .create-full {
+      grid-column: auto;
+    }
+  
+    .skill-row {
+      grid-template-columns: 32px 1fr 42px;
+    }
+  
+    .minimum-score {
+      grid-column: 2 / 3;
+    }
+  
+    .remove-skill {
+      grid-column: 3;
+      grid-row: 1 / span 2;
+    }
+  
+    .create-actions {
+      flex-direction: column-reverse;
+    }
+  
+    .cancel-button,
+    .publish-button {
+      width: 100%;
+    }
+  }
