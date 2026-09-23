@@ -1,3 +1,33 @@
+# Skill Mitra
+
+**Skills proven, careers built.**
+
+Skill Mitra is an evidence-based platform connecting students, academia, and industry through skill mapping, verified Skill Passports, internships, challenges, and placement opportunities.
+
+---
+
+## 🚀 Run Skill Mitra Locally
+
+Follow these steps to run the project on your local machine.
+
+### 1. Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js (LTS version recommended)
+- npm
+- Git
+
+Check your installations:
+
+```bash
+node --version
+npm --version
+git --version
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
