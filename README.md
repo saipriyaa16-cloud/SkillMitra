@@ -24,22 +24,29 @@ Check your installations:
 node --version
 npm --version
 git --version
+```
 
 ### 2. Clone the Repository
 
 Open your terminal and run:
 
+```bash
 git clone https://github.com/saipriyaa16-cloud/SkillMitra.git
+```
 
 Then enter the project folder:
 
+```bash
 cd SkillMitra
+```
 
 ### 3. Install Dependencies
 
 Install all required packages:
 
+```bash
 npm install
+```
 
 ### 4. Configure Environment Variables
 
@@ -47,26 +54,36 @@ Skill Mitra uses Supabase for authentication and database services.
 
 Create a file named:
 
+```text
 .env
+```
 
 in the root directory of the project.
 
 Add your Supabase configuration:
 
+```env
 VITE_SUPABASE_URL=your_supabase_project_url
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
 
 Replace the placeholder values with the Supabase URL and anon key from your Supabase project.
+
+> **Important:** Do not upload your `.env` file or private credentials to GitHub.
 
 ### 5. Start the Development Server
 
 Run:
 
+```bash
 npm run dev
+```
 
 You should see something similar to:
 
+```text
 Local: http://localhost:5173/
+```
 
 Open the displayed local URL in your browser.
 
@@ -74,10 +91,9 @@ Open the displayed local URL in your browser.
 
 Once the application opens:
 
-Select a user role.
-Login using a configured account.
-Open the corresponding dashboard.
-Explore the available features and workflows.
+1. Select a user role.
+2. Login using a configured account.
+3. Open the corresponding dashboard.
+4. Explore the available features and workflows.
 
 The prototype includes Student and Industry workflows.
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
