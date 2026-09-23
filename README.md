@@ -25,7 +25,7 @@ node --version
 npm --version
 git --version
 
-### 2.Clone the Repository
+### 2. Clone the Repository
 
 Open your terminal and run:
 
@@ -35,13 +35,13 @@ Then enter the project folder:
 
 cd SkillMitra
 
-### 3.Install Dependencies
+### 3. Install Dependencies
 
 Install all required packages:
 
 npm install
 
-### 4.Configure Environment Variables
+### 4. Configure Environment Variables
 
 Skill Mitra uses Supabase for authentication and database services.
 
@@ -58,7 +58,7 @@ VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 Replace the placeholder values with the Supabase URL and anon key from your Supabase project.
 
-### 5.Start the Development Server
+### 5. Start the Development Server
 
 Run:
 
@@ -70,7 +70,7 @@ Local: http://localhost:5173/
 
 Open the displayed local URL in your browser.
 
-### 6.Login and Explore
+### 6. Login and Explore
 
 Once the application opens:
 
