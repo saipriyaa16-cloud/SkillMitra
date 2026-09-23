@@ -161,6 +161,29 @@ Unlike a standard job portal, Skill Mitra ranks candidates using verified skill 
 
 
 
+## 5. Why Skill Mitra is different
+
+Skill Mitra does not depend only on resumes. It creates a Skill Passport where
+assessments, projects, challenges, internships, and mentor feedback become verified
+evidence. Companies can match candidates based on skill requirements and see why
+each candidate matches or falls short.
+
+### 🔑 Key Differentiators
+
+- **Shared, evidence-based skill picture** across students, industry, academicians, and institutions
+- **Skill Passport** with progressive verification levels: Self → Assessment → College → Industry
+- **Industry Challenges** that convert demonstrated skills into opportunities such as interviews and internships
+- **Explainable Match Scores** that show how candidate skills align with industry requirements
+- **Readiness Roadmaps** that identify skill gaps and guide students toward target roles
+
+### 🎓 Academia–Industry Collaboration
+
+Faculty can view a student's skill gaps → recommend a specific industry challenge or training → verify the completed project → track mentee progress.
+
+For institutions, the **Curriculum Insight Panel** highlights top industry-demanded skills against current student skill levels, helping identify curriculum and training gaps.
+
+
+
 ## 6. Technical Architecture
 
 Skill Mitra follows a role-based web architecture connecting students, industry, academicians, and institutions through a shared skill and opportunity platform.
@@ -212,9 +235,20 @@ Skill Mitra follows a role-based web architecture connecting students, industry,
 
 **Full version:** API, secure authentication, relational database, role-based access control, and sandboxed code execution for JavaScript, Python, and Java.
 
+## 🛠️ Tech Stack
 
+| Technology | Purpose |
+|---|---|
+| **React** | Frontend user interface and role-based dashboards |
+| **Vite** | Development server and frontend build tool |
+| **JavaScript** | Application logic and interactive functionality |
+| **Supabase Auth** | User authentication and role-based access |
+| **Supabase PostgreSQL** | Database for profiles, skills, opportunities, applications, and challenges |
+| **Lucide React** | UI icons |
+| **CSS** | Styling and responsive interface design |
+| **Git & GitHub** | Version control and source-code hosting |
 
-## Product roadmap
+## 7. Product roadmap
 
 | Phase | Prototype / roadmap modules | What it proves |
 |---|---|---|
@@ -223,7 +257,7 @@ Skill Mitra follows a role-based web architecture connecting students, industry,
 | Phase 3: Ecosystem loop | Academician portal, institution analytics, advanced integrations | Institutions can use skill data to improve outcomes |
 
 
-## 📚 Documentation
+## 8. 📚 Documentation
 
 - [Architecture](architecture.md)
 - [Data Model](datamodel.md)
