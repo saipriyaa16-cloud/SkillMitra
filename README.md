@@ -27,20 +27,59 @@ git --version
 
 
 
+Clone the Repository
 
-# React + Vite
+Open your terminal and run:
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+git clone https://github.com/saipriyaa16-cloud/SkillMitra.git
 
-Currently, two official plugins are available:
+Then enter the project folder:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+cd SkillMitra
 
-## React Compiler
+Install Dependencies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Install all required packages:
 
-## Expanding the Oxlint configuration
+npm install
 
+Configure Environment Variables
+
+Skill Mitra uses Supabase for authentication and database services.
+
+Create a file named:
+
+.env
+
+in the root directory of the project.
+
+Add your Supabase configuration:
+
+VITE_SUPABASE_URL=your_supabase_project_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+
+Replace the placeholder values with the Supabase URL and anon key from your Supabase project.
+
+Start the Development Server
+
+Run:
+
+npm run dev
+
+You should see something similar to:
+
+Local: http://localhost:5173/
+
+Open the displayed local URL in your browser.
+
+Login and Explore
+
+Once the application opens:
+
+Select a user role.
+Login using a configured account.
+Open the corresponding dashboard.
+Explore the available features and workflows.
+
+The prototype includes Student and Industry workflows.
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
