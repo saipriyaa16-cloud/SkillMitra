@@ -223,3 +223,12 @@ Skill Mitra follows a role-based web architecture connecting students, industry,
 | Phase 3: Ecosystem loop | Academician portal, institution analytics, advanced integrations | Institutions can use skill data to improve outcomes |
 
 
+## 📚 Documentation
+
+- [Architecture](architecture.md)
+- [Data Model](datamodel.md)
+- [Matching and Scoring](matchingandscoring.md)
+- [Problem Statement Mapping](problemstatementmapping.md)
+- [Product Requirements](productrequirements.md)
+- [Roadmaps](roadmaps.md)
+- [Security and Privacy](securityprivacy.md)
