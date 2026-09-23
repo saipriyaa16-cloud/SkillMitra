@@ -267,3 +267,6 @@ Skill Mitra follows a role-based web architecture connecting students, industry,
 - [Product Requirements](productrequirements.md)
 - [Roadmaps](roadmaps.md)
 - [Security and Privacy](securityprivacy.md)
+
+
+Skill Mitra begins with a credible evidence loop—assess, build, verify, and match—then grows into a full ecosystem for career readiness, hiring, mentorship, and institutional improvement.
